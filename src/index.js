@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Main from './routes/main';
 import About from './routes/about';
+import Outlet from './routes/outlet';
 
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
@@ -12,7 +13,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Main/>}>
+        <Route path='/' element={<Outlet/>}>
           <Route path='about' element={<About/>}/>
         </Route>
       </Routes>
