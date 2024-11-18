@@ -1,14 +1,17 @@
 import Main from "./main";
-function Outlet() {
+import Navi from "../components/Navigation";
+import Foot from "../components/Footer";
+import { useOutlet } from "react-router-dom";
+function OutletFill() {
     const outlet = useOutlet()
     return (
     <div>
-        <Frame>
+        <Navi/>
             {outlet ?? <Main/>}
-        </Frame>
+        <Foot/>
     </div>
     );
   }
   
-  export default Outlet;
+  export default OutletFill;
   
