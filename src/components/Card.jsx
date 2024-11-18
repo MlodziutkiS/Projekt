@@ -1,9 +1,11 @@
-function Card() {
+function Card(props) {
+
+    const {tytul, text, img} = props
     return(
-        <div>
-            <img></img>
-            <h2></h2>
-            <p></p>
+        <div className="card">
+            <img src="jajo.jpg"></img>
+            <h2>Jajo jaoj</h2>
+            <p>afaghfavufhbaihafuafbu</p>
         </div>
     )
 }
