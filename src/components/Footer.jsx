@@ -1,7 +1,8 @@
 function Foot() {
     return (
-      <div className="main">
-          <h1>Footer</h1>
+      <div className="Footer">
+            <hr/>
+          <footer>Made by J4nc3 and MlodziutkiS</footer>
       </div>
     );
   }
