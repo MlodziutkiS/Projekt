@@ -1,23 +1,39 @@
 body {
   margin: 0;
   font-family: serif;
-  background-color: rgb(0, 0, 0,);
+  background-color: black;
   scrollbar-color: rgb(62, 65, 68) rgb(22, 24, 28);;
 }
 button {
   background-color: rgb(0, 0, 0);
   color: white;
   padding: 10px 20px ;
-  border-radius: 5px;
-  border: none;
+  border-radius: 20px;
+  border: 1px solid rgb(62, 65, 68);
   cursor: pointer;
   margin: 10px;
   font-family: monospace;
+  font-style: italic;
+  font-size: larger;
+  text-align: left;
 }
 
 button:hover {
   background-color: rgb(61, 63, 64);
 }
-main {
-  
+footer {
+  color: grey;
+  font-size: large;
+}
+.main {
+  border-radius: 5px;
+  border: solid 1px rgb(62, 65, 68);
+  color: white;
+  text-align: center;
+}
+.about {
+  border-radius: 5px;
+  border: solid 1px rgb(62, 65, 68);
+  color: white;
+  text-align: center;
 }
