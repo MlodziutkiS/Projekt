@@ -1,4 +1,4 @@
-function main() {
+function Main() {
   return (
     <div className="main">
         <h1>Main Page</h1>
@@ -6,4 +6,4 @@ function main() {
   );
 }
 
-export default main;
+export default Main;
